@@ -1,6 +1,6 @@
 from selenium import webdriver
 import pandas as pd
-url="https://www.youtube.com/channel/UC8tgRQ7DOzAbn9L7zDL8mLg/videos"
+url="youtube_channel/videos"#link
 driver = webdriver.Chrome()
 driver.implicitly_wait(30)
 driver.maximize_window()
